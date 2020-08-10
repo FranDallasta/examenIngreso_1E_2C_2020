@@ -29,19 +29,19 @@ function mostrar() {
 
 	do {
 		do {
-			sexo = prompt("Ingrese el sexo del titular");
+			sexo = prompt("Ingrese el sexo del titular que viaja : ");
 		} while (!(sexo == "f" || sexo == "m"));
 
 		do {
-			lugar = prompt("Ingrese el nombre del lugar de destino");
+			lugar = prompt("Ingrese el nombre del lugar de destino al que viaja :");
 		} while (!(lugar == "bariloche" || lugar == "cataratas" || lugar == "salta"));
 
 		do {
-			temporada = prompt("Ingrese la temporada en que viajara");
+			temporada = prompt("Ingrese la temporada en que viajara: ");
 		} while (!(temporada == "otoño" || temporada == "invierno" || temporada == "verano" || temporada == "primavera"));
 
 		do {
-			personas = parseInt(prompt("Ingrese la cantidad de personas"));
+			personas = parseInt(prompt("Ingrese la cantidad de personas: "));
 		} while (isNaN(personas));
 
 		respuesta = prompt("Quiere ingresar otra estadía de vacaciones?");
