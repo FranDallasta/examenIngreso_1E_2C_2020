@@ -27,7 +27,7 @@ function mostrar() {
 		nombre = prompt("Ingrese el nombre de la persona");
 		do {
 			peso = parseInt(prompt("Ingrese el peso de la persona"));
-		} while (isNaN(peso))
+		} while (isNaN(peso));
 
 		do {
 			sexo = prompt("Ingrese el sexo de la persona");
